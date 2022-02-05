@@ -1,7 +1,6 @@
 package com.crio.shorturl;
 
 public interface XUrl {
-
   // If longUrl already has a corresponding shortUrl, return that shortUrl
   // If longUrl is new, create a new shortUrl for the longUrl and return it
   String registerNewUrl(String longUrl);
